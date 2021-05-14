@@ -23,6 +23,7 @@ Major Upgarde
 Major upgrade biasanya terjadi karena ada perubahan pada sisi kode program kita, sehuingga membuatnya tidak compatible (sebaiknya dihindari)
 Namun jika terpaksa merubah major, strategy terbaik adalah merubah nama module
  */
+
 func SayHello(name string) string  {
 	return "Hello " + name +" world, dan ini upgrade module to v1.1.0"
 }
